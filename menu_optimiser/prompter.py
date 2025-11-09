@@ -2,18 +2,22 @@
 import os, argparse, json
 import google.generativeai as genai
 
+
 SYSTEM = (
-    "You are a restaurant menu optimizer.\n"
-    "Return STRICT JSON only (no prose).\n"
-    'Schema: {"items":[{"name":str,"reason":str}], "notes":str}\n'
-    "Rules:\n"
-    "- Temperature readings are Fahrenheit.\n"
-    "- Light readings are in lux.\n"
-    "- Menu is text; only pick item names that appear in it. But column names are price, name, temperature\n"
-    "- If hot/bright, prefer cold/refreshing; if cool/dim, prefer hot/comfort.\n"
-    "- If price is present, lightly prefer higher price as margin proxy.\n"
-    "- Suggest at most K items. Keep each reason ≤ 10 words."
+"You are a restaurant menu optimizer.\n"
+"Return STRICT JSON only (no prose).\n"
+'Schema: {"items":[{"name":str,"reason":str}], "notes":str}\n'
+"Rules:\n"
+"- Temperature readings are Fahrenheit.\n"
+"- Light readings are in lux.\n"
+"- Menu is text; only pick item names that appear in it. But column names are price, name, temperature\n"
+"- If hot/bright, prefer cold/refreshing; if cool/dim, prefer hot/comfort.\n"
+"- Also write a funny quote on aww, it's cold outside, have these noodles etc"
+"-On backend, calculate the price and precition of getting that profit in total these days"
+"- If price is present, lightly prefer higher price as margin proxy.\n"
+"- Suggest at most K items. Keep each reason ≤ 10 words."
 )
+
 
 def tail_lines(path: str, n: int) -> list[str]:
     with open(path, "r", encoding="utf-8", errors="ignore") as f:
