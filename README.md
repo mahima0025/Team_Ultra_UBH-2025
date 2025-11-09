@@ -124,7 +124,7 @@ python python/main.py
 ## License
 MIT (or your choice).
 
----
+-----
 
 ## Acknowledgments
 - Raspberry Pi OS (Bookworm)  
