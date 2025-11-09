@@ -1,0 +1,24 @@
+Item,Temperature,Price (USD)
+Tropical Sunrise Smoothie,cold,5.50
+Iced Matcha Latte,cold,4.75
+Citrus Chia Yogurt Jar,cold,5.00
+Avocado Toast with Cherry Tomatoes,cold,6.50
+Watermelon Mint Cooler,cold,4.25
+Masala Chai with Ginger & Cardamom,hot,3.75
+Cinnamon Apple Oatmeal Bowl,hot,5.25
+Egg & Cheese Croissant,hot,5.50
+Hot Chocolate with Marshmallows,hot,4.00
+Banana Pancakes with Maple Syrup,hot,6.00
+Cold Coffee with Vanilla Ice Cream,cold,5.25
+Lemon Iced Tea with Basil,cold,4.50
+Grilled Veggie Wrap with Hummus,hot,6.75
+Greek Salad with Feta and Olives,cold,6.25
+Mango Sorbet Cup,cold,4.75
+Tomato Basil Soup with Garlic Bread,hot,6.00
+Spaghetti Aglio e Olio,hot,7.50
+Roasted Paneer/Chicken Skewers,hot,7.25
+Warm Brownie with Melted Chocolate,hot,5.75
+Pakoras with Mint Chutney,hot,4.50
+Cutting Chai,hot,3.25
+Grilled Cheese Sandwich,hot,5.00
+Hot Corn on the Cob with Lemon and Chili,hot,3.75
