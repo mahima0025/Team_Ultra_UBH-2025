@@ -1,0 +1,6 @@
+item_id,name,price,cost,prep_time_min,category
+1,Iced Latte,180,60,1,drink_cold
+2,Hot Coffee,120,35,1,drink_hot
+3,Salad,220,90,3,food_cold
+4,Grilled Sandwich,250,110,4,food_hot
+5,Soup,160,60,3,food_hot

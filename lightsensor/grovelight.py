@@ -30,4 +30,7 @@ if __name__ == '__main__':
     while True:
         lux = read_light_intensity()
         print(f"Approximate Light Intensity: {lux:.2f} lux")
-        time.sleep(1)
+        with open("/home/mahima/dev/Team_Ultra_UBH-2025/lightsensor/lux_output.txt")
+           f.write(f"{lux:.2f}\n")
+        time.sleep(30)
+
