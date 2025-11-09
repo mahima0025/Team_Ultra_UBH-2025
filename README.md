@@ -1,11 +1,10 @@
-# Pi 5 Camera + Grove Sensors (Miniconda, 64-bit)
+# Pi 5 Grove Sensors (Miniconda, 64-bit)
 
-Lightweight starter to run a **Raspberry Pi 5 (64-bit)** with a **USB UVC camera** (e.g., see3cam_cu55) and **Grove analog sensors** (**Temperature v1.2** + **Light**) read via **Arduino 101** → USB serial. Built for headless use over SSH. Comes with a minimal conda env for CPU ML/DL inference.
+Lightweight starter to run a **Raspberry Pi 5 (64-bit)** with **Grove analog sensors** (**Temperature v1.2** + **Light**) USB serial. Built for headless use over SSH. Comes with a minimal conda env for CPU ML/DL inference.
 
 ---
 
 ## Features
-- ✅ UVC camera capture with OpenCV
 - ✅ Grove Temp v1.2 + Light via Arduino 101 (A0/A1) → JSON over `/dev/ttyACM*`
 - ✅ Miniconda (Python 3.11) env for `onnxruntime` / `opencv` / `tflite-runtime` (optional)
 - ✅ Headless-first (Lite OS); works on Desktop too
@@ -15,7 +14,6 @@ Lightweight starter to run a **Raspberry Pi 5 (64-bit)** with a **USB UVC camera
 ## Hardware
 - **Raspberry Pi 5**, Raspberry Pi OS **Bookworm 64-bit** (Lite recommended)
 - **Power**: Official 27 W USB-C
-- **Camera**: any UVC (e.g., see3cam_cu55 → `/dev/video0`)
 - **Arduino 101** (acts as ADC)
 - **Grove sensors**: Temp v1.2 (thermistor), Light v1.2 (analog)
 - **Wiring (Arduino 101)**  
@@ -29,8 +27,7 @@ Lightweight starter to run a **Raspberry Pi 5 (64-bit)** with a **USB UVC camera
 project/
 ├─ arduino/
 │  └─ grove_sensors_arduino101.ino      # JSON: {"tempC":..,"light_raw":..,"light_norm":..}
-├─ python/
-│  ├─ camera_test.py                    # OpenCV capture sanity test
+├─ python/                
 │  ├─ sensors_arduino.py                # read from /dev/ttyACM0
 │  └─ main.py                           # combined camera + sensors demo
 ├─ environment.yml                      # conda env (python=3.11)
