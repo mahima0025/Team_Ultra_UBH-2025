@@ -25,7 +25,7 @@ def main():
     while True:
         val = adc.read(ch)
         v, r, t = adc_to_temp_c(val)
-        print(f"ADC={val:4d}  V={v:0.3f}V  R={r:0.0f}Ω  T={t:0.2f}°C")
+        print(f"ADC={val:4d}  V={v:0.3f}V  R={r:0.0f}Ω  T={t:0.2f}F")
         time.sleep(1)
 
 if __name__ == "__main__":
