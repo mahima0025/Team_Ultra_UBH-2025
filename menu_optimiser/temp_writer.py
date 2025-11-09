@@ -1,5 +1,6 @@
 import math, sys, time, os
 from grove.adc import ADC
+from datetime import datetime
 
 # Grove Temperature v1.2 defaults (10k NTC). Adjust BETA if needed.
 VCC = 3.3
@@ -22,11 +23,15 @@ def main():
     if "GROVE_I2C_BUS" not in os.environ:
         os.environ["GROVE_I2C_BUS"] = "1"
     adc = ADC(address=0x04)
-    while True:
-        val = adc.read(ch)
-        v, r, t = adc_to_temp_c(val)
-        print(f"ADC={val:4d}  V={v:0.3f}V  R={r:0.0f}Ω  T={t:0.2f}F")
-        time.sleep(1)
+    
+    tmstmp = datetime.now().strftime('%M%S')
+    with open(f'./logs/temp_logs_{tmstmp}.txt', 'w') as f:
+        while True:
+            val = adc.read(ch)
+            v, r, t = adc_to_temp_c(val)
+            print(f"ADC={val:4d}  V={v:0.3f}V  R={r:0.0f}Ω  T={t:0.2f}F")
+            f.write(f'{t:.2f}\n')
+            time.sleep(10)
 
 if __name__ == "__main__":
     main()
