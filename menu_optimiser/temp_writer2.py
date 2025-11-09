@@ -23,13 +23,14 @@ def main():
     if "GROVE_I2C_BUS" not in os.environ:
         os.environ["GROVE_I2C_BUS"] = "1"
     adc = ADC(address=0x04)
-    
+
     tmstmp = datetime.now().strftime('%M%S')
     with open(f'/home/mahima/dev/Team_Ultra_UBH-2025/menu_optimiser/logs/temp_logs_{tmstmp}.txt', 'w') as f:
         while True:
             val = adc.read(ch)
             v, r, t = adc_to_temp_c(val)
-            print(f"ADC={val:4d}  V={v:0.3f}V  R={r:0.0f}Ω  T={t:0.2f}F")
+            # print(f"ADC={val:4d}  V={v:0.3f}V  R={r:0.0f}Ω  T={t:0.2f}F")
+            print(f'{t:.2f}\n')
             f.write(f'{t:.2f}\n')
             time.sleep(2)
 

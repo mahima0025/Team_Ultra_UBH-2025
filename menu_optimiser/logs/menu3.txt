@@ -1,0 +1,31 @@
+Item,Primary Sensation,Recommended Mood,Price (USD)
+Tropical Sunrise Smoothie,refreshing,energetic,5.50
+Iced Matcha Latte,calming,focused,4.75
+Citrus Chia Yogurt Jar,tangy,cheerful,5.00
+Avocado Toast with Cherry Tomatoes,crisp,productive,6.50
+Watermelon Mint Cooler,hydrating,relaxed,4.25
+Masala Chai with Ginger & Cardamom,spiced,nostalgic,3.75
+Cinnamon Apple Oatmeal Bowl,comforting,cozy,5.25
+Egg & Cheese Croissant,buttery,content,5.50
+Hot Chocolate with Marshmallows,creamy,comfort-seeking,4.00
+Banana Pancakes with Maple Syrup,sweet,optimistic,6.00
+Cold Coffee with Vanilla Ice Cream,indulgent,playful,5.25
+Lemon Iced Tea with Basil,zesty,fresh-minded,4.50
+Grilled Veggie Wrap with Hummus,wholesome,focused,6.75
+Greek Salad with Feta and Olives,crisp,refresh-seeking,6.25
+Mango Sorbet Cup,cool,sunny,4.75
+Tomato Basil Soup with Garlic Bread,warm,soothing,6.00
+Spaghetti Aglio e Olio,garlicky,romantic,7.50
+Roasted Paneer Skewers,smoky,adventurous,7.25
+Warm Brownie with Melted Chocolate,gooey,self-indulgent,5.75
+Pakoras with Mint Chutney,crunchy,rainy-day,4.50
+Cutting Chai,spiced,reflective,3.25
+Grilled Cheese Sandwich,melted,comfort-seeking,5.00
+Hot Corn on the Cob with Lemon and Chili,spicy,joyful,3.75
+Berry Yogurt Parfait,fruity,light-hearted,5.25
+Sizzling Noodles,spicy,energetic,7.00
+Rose Lemon Cooler,floral,peaceful,4.75
+Pumpkin Soup with Croutons,earthy,calm,6.25
+Dark Mocha Espresso,bold,driven,4.50
+Tiramisu Cup,rich,romantic,5.75
+Sweet Chili Potato Bites,spicy,fun,4.75

@@ -34,6 +34,7 @@ if __name__ == '__main__':
         while True:
             lux = read_light_intensity()
             f.write(f"{lux:.2f}\n")
-            print(f"Approximate Light Intensity: {lux:.2f} lux")
+            #print(f"Approximate Light Intensity: {lux:.2f} lux")
+            print(f"{lux:.2f}")
             time.sleep(2)
 

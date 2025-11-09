@@ -1,0 +1,31 @@
+Item,Primary Sensation,Recommended Mood,Price (USD)
+Classic NY Pizza Slice,cheesy,nostalgic,4.00
+Iced Cold Brew,energizing,focused,4.25
+Hot Chocolate with Whipped Cream,creamy,comfort-seeking,4.75
+Everything Bagel with Cream Cheese,hearty,morning-rush,3.50
+Spicy Buffalo Chicken Sandwich,spicy,bold,7.25
+Avocado Toast with Chili Flakes,crisp,productive,6.75
+NY Cheesecake Slice,rich,romantic,5.50
+Cinnamon Pretzel,cozy,wanderlust,3.75
+Grilled Cheese & Tomato Soup Combo,warm,comforting,7.00
+Lemon Iced Tea,zesty,fresh-minded,4.50
+Tropical Sunrise Smoothie,refreshing,energetic,5.50
+Truffle Mac & Cheese,creamy,self-indulgent,8.00
+Roasted Veggie Panini,wholesome,balanced,6.75
+Hot Cappuccino,bitter-sweet,reflective,4.25
+Mushroom Flatbread Pizza,umami,chill,7.50
+Pumpkin Spice Latte,spiced,cozy,5.25
+Sweet Chili Potato Bites,spicy,playful,4.75
+Classic NY Hot Dog,smoky,street-mode,3.75
+Churros with Chocolate Dip,sweet,joyful,4.25
+Berry Yogurt Parfait,fruity,light-hearted,5.00
+Tomato Basil Soup,warm,soothing,5.50
+Loaded Nachos,crunchy,social,7.00
+Mocha Frappe,indulgent,creative,5.25
+Blueberry Muffin,soft,cheerful,3.75
+Margherita Pizza,cheesy,content,6.50
+Dark Mocha Espresso,bold,driven,4.75
+Sizzling Noodles,spicy,energetic,7.00
+Rose Lemon Cooler,floral,peaceful,4.75
+Maple Waffle Stack,sweet,weekend-mode,6.00
+Cutting Chai,spiced,reflective,3.25
